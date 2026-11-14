@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+node_modules/
+**/appsettings.Local.json
+*.log
+**/test-results/
+**/playwright-report/
+**/*.template-backup
+tools/
+.local/

@@ -1,0 +1,410 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="FIN05_logic" name="Sơ đồ logic dữ liệu">
+    <mxGraphModel dx="2641" dy="1351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2240" pageHeight="2930" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=37;fontStyle=1;" value="SƠ ĐỒ LOGIC CƠ SỞ DỮ LIỆU – FIN-05" vertex="1">
+          <mxGeometry height="70" width="2080" x="80" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="Customers" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" target="Invoices">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult0_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="1125" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="mult0_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="1125" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="Customers" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=0.2545454545454545;exitY=1.0;entryX=0.5;entryY=0.0;" target="Payments">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="590" />
+              <mxPoint x="405" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult1_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="990" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="mult1_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="425" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="Invoices" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;" target="InvoiceItems">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult2_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="1410" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="mult2_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="1430" y="887" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="Payments" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" target="PaymentAllocations">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult3_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="425" y="1092" as="geometry" />
+        </mxCell>
+        <mxCell id="mult3_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="425" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="Invoices" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=0.0;exitY=0.8108108108108109;entryX=1.0;entryY=0.5;" target="PaymentAllocations">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="990" />
+              <mxPoint x="740" y="1425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult4_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="730" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="mult4_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="710" y="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="Invoices" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" target="DebtAdjustments">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult5_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="1125" y="1092" as="geometry" />
+        </mxCell>
+        <mxCell id="mult5_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="1125" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="Invoices" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=1.0;exitY=0.8108108108108109;entryX=0.0;entryY=0.5;" target="DebtReminders">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1455" y="990" />
+              <mxPoint x="1455" y="1425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult6_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="1410" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="mult6_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="1430" y="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="DebtAdjustments" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" target="JournalEntries">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult7_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="1125" y="1642" as="geometry" />
+        </mxCell>
+        <mxCell id="mult7_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="1125" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="JournalEntries" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;" target="JournalEntryLines">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult8_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="1410" y="1927" as="geometry" />
+        </mxCell>
+        <mxCell id="mult8_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="1430" y="1987" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="AccountingAccounts" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=0.5;exitY=0.0;entryX=0.5;entryY=1.0;" target="JournalEntryLines">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult9_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="1825" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="mult9_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="1825" y="2192" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="AppUsers" style="html=1;rounded=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;strokeWidth=2;strokeColor=#263238;exitX=0.0;exitY=0.5;entryX=0.0;entryY=0.5;" target="AuditLogs">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="325" />
+              <mxPoint x="65" y="2525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult10_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="1" vertex="1">
+          <mxGeometry height="35" width="75" x="30" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="mult10_-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=0;" value="0..*" vertex="1">
+          <mxGeometry height="35" width="75" x="30" y="2537" as="geometry" />
+        </mxCell>
+        <mxCell id="AppUsers" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="130" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AppUsers_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="130" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AppUsers_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="AppUsers" vertex="1">
+          <mxGeometry height="57" width="540" x="135" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="AppUsers_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK UserId" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="AppUsers_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="UQ KeycloakSubject" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="AppUsers_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FullName" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="AppUsers_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="IsActive" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="Customers" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="830" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Customers_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="830" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Customers_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="Customers" vertex="1">
+          <mxGeometry height="57" width="540" x="835" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="Customers_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK CustomerId" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="Customers_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="UQ CustomerCode" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="Customers_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="CustomerName" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="Customers_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="IsActive" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="Payments" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="130" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="Payments_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="130" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="Payments_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="Payments" vertex="1">
+          <mxGeometry height="57" width="540" x="135" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="Payments_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK PaymentId" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="767" as="geometry" />
+        </mxCell>
+        <mxCell id="Payments_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK CustomerId" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="Payments_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK ReceivedByUserId → AppUsers" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="Payments_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="Amount, Status" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="Payments_field4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="RowVersion" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="963" as="geometry" />
+        </mxCell>
+        <mxCell id="Invoices" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="830" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="Invoices_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="830" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="Invoices_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="Invoices" vertex="1">
+          <mxGeometry height="57" width="540" x="835" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="Invoices_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK InvoiceId" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="767" as="geometry" />
+        </mxCell>
+        <mxCell id="Invoices_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK CustomerId" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="Invoices_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK CreatedByUserId → AppUsers" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="Invoices_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="TotalAmount, IssueStatus" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="Invoices_field4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="RowVersion" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="963" as="geometry" />
+        </mxCell>
+        <mxCell id="InvoiceItems" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="1530" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="InvoiceItems_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="1530" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="InvoiceItems_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="InvoiceItems" vertex="1">
+          <mxGeometry height="57" width="540" x="1535" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="InvoiceItems_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK InvoiceItemId" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="767" as="geometry" />
+        </mxCell>
+        <mxCell id="InvoiceItems_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK InvoiceId" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="InvoiceItems_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="Quantity, UnitPrice" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="InvoiceItems_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="LineAmount" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="PaymentAllocations" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="130" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="PaymentAllocations_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="130" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="PaymentAllocations_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="PaymentAllocations" vertex="1">
+          <mxGeometry height="57" width="540" x="135" y="1244" as="geometry" />
+        </mxCell>
+        <mxCell id="PaymentAllocations_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK AllocationId" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="1317" as="geometry" />
+        </mxCell>
+        <mxCell id="PaymentAllocations_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK PaymentId" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="1366" as="geometry" />
+        </mxCell>
+        <mxCell id="PaymentAllocations_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK InvoiceId" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="1415" as="geometry" />
+        </mxCell>
+        <mxCell id="PaymentAllocations_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK CreatedByUserId → AppUsers" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="1464" as="geometry" />
+        </mxCell>
+        <mxCell id="PaymentAllocations_field4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="AllocatedAmount" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="1513" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtAdjustments" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="830" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtAdjustments_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="830" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtAdjustments_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="DebtAdjustments" vertex="1">
+          <mxGeometry height="57" width="540" x="835" y="1244" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtAdjustments_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK AdjustmentId" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="1317" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtAdjustments_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK InvoiceId" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="1366" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtAdjustments_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK CreatedByUserId → AppUsers" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="1415" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtAdjustments_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="SignedAmount, Status" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="1464" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtReminders" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="1530" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtReminders_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="1530" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtReminders_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="DebtReminders" vertex="1">
+          <mxGeometry height="57" width="540" x="1535" y="1244" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtReminders_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK ReminderId" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="1317" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtReminders_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK InvoiceId" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="1366" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtReminders_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK CreatedByUserId → AppUsers" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="1415" as="geometry" />
+        </mxCell>
+        <mxCell id="DebtReminders_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="Content, Status" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="1464" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntries" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="830" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntries_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="830" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntries_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="JournalEntries" vertex="1">
+          <mxGeometry height="57" width="540" x="835" y="1794" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntries_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK JournalEntryId" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="1867" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntries_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK AdjustmentId" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="1916" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntries_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK PostedByUserId → AppUsers" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="1965" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntries_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="EntryType, EntryDate" vertex="1">
+          <mxGeometry height="47" width="520" x="845" y="2014" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntryLines" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="1530" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntryLines_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="1530" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntryLines_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="JournalEntryLines" vertex="1">
+          <mxGeometry height="57" width="540" x="1535" y="1794" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntryLines_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK JournalEntryLineId" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="1867" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntryLines_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK JournalEntryId" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="1916" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntryLines_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK AccountId" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="1965" as="geometry" />
+        </mxCell>
+        <mxCell id="JournalEntryLines_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="DebitAmount, CreditAmount" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="2014" as="geometry" />
+        </mxCell>
+        <mxCell id="AccountingAccounts" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="1530" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="AccountingAccounts_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="1530" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="AccountingAccounts_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="AccountingAccounts" vertex="1">
+          <mxGeometry height="57" width="540" x="1535" y="2344" as="geometry" />
+        </mxCell>
+        <mxCell id="AccountingAccounts_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK AccountId" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="2417" as="geometry" />
+        </mxCell>
+        <mxCell id="AccountingAccounts_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="UQ AccountCode" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="2466" as="geometry" />
+        </mxCell>
+        <mxCell id="AccountingAccounts_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="AccountName" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="2515" as="geometry" />
+        </mxCell>
+        <mxCell id="AccountingAccounts_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="IsActive" vertex="1">
+          <mxGeometry height="47" width="520" x="1545" y="2564" as="geometry" />
+        </mxCell>
+        <mxCell id="AuditLogs" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="370" width="550" x="130" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="AuditLogs_header" parent="1" style="rounded=0;fillColor=#D9EFF9;strokeColor=#263238;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="65" width="550" x="130" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="AuditLogs_name" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontStyle=1;" value="AuditLogs" vertex="1">
+          <mxGeometry height="57" width="540" x="135" y="2344" as="geometry" />
+        </mxCell>
+        <mxCell id="AuditLogs_field0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;" value="PK AuditLogId" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="2417" as="geometry" />
+        </mxCell>
+        <mxCell id="AuditLogs_field1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="FK UserId → AppUsers" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="2466" as="geometry" />
+        </mxCell>
+        <mxCell id="AuditLogs_field2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="EntityName, EntityId" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="2515" as="geometry" />
+        </mxCell>
+        <mxCell id="AuditLogs_field3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=0;" value="Action, ActionTime" vertex="1">
+          <mxGeometry height="47" width="520" x="145" y="2564" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=25;fontStyle=0;" value="PK: khóa chính     FK: khóa ngoại     UQ: duy nhất&#xa;Quan hệ: một bản ghi cha (1) có thể có từ 0 đến nhiều bản ghi con (0..*).&#xa;Các trường FK người thực hiện tham chiếu AppUsers.UserId; đích được ghi tại trường để hạn chế chồng đường nối.&#xa;Công nợ phải thu được tổng hợp từ hóa đơn, điều chỉnh và phân bổ thanh toán; không lưu bảng số dư riêng.&#xa;Các thuộc tính và kiểu dữ liệu đầy đủ được mô tả trong mục 4.2." vertex="1">
+          <mxGeometry height="170" width="1980" x="130" y="2740" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

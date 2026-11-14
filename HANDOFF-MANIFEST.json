@@ -1,0 +1,737 @@
+{
+  "project": "FIN-05",
+  "createdAtUtc": "2026-11-14T13:04:37.0622099Z",
+  "kind": "Source only; no private credentials or business data",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 149,
+      "sha256": "e94f6d417baf821b4a07894ef0a9a33cdc48c3623be30ded0dbecf194447ef6d"
+    },
+    {
+      "path": "backend/Fin05.Api/appsettings.Development.json",
+      "bytes": 357,
+      "sha256": "b34801939d459ea90ed36ba8a94e91d6201a4acee94bf7ccd90eb6a5ec2b7a16"
+    },
+    {
+      "path": "backend/Fin05.Api/appsettings.json",
+      "bytes": 151,
+      "sha256": "200332b434757a0054a3d356c91cde01f2c48712be8aa2bcb0f3e973619f06e3"
+    },
+    {
+      "path": "backend/Fin05.Api/Contracts/CreateCustomerRequest.cs",
+      "bytes": 844,
+      "sha256": "08c9ae4dfc79eb80a651aa11f9bf4841a4bd992e34620437123f6e45014dbdd0"
+    },
+    {
+      "path": "backend/Fin05.Api/Contracts/ManageUserRequest.cs",
+      "bytes": 1062,
+      "sha256": "c1fa19762abeb55b75928ceb7ce773d247bafbe8e0cdf9347900d234b82ee409"
+    },
+    {
+      "path": "backend/Fin05.Api/Contracts/SaveAdjustmentRequest.cs",
+      "bytes": 1735,
+      "sha256": "5c78d84d8a2013134b65fc1faf246f550cf756a9494b9c8a6f8d7d4cac728306"
+    },
+    {
+      "path": "backend/Fin05.Api/Contracts/SaveInvoiceRequest.cs",
+      "bytes": 1172,
+      "sha256": "bd336d9eb935fba1d4bd678288b9d02dd5dfc177c4b803c24f55f59f9f678f87"
+    },
+    {
+      "path": "backend/Fin05.Api/Contracts/SavePaymentRequest.cs",
+      "bytes": 1395,
+      "sha256": "e23f97d78a6616fc4d9d39e291c0ec6aecfdf2eaa274a4f05ccdcd8ade505a7f"
+    },
+    {
+      "path": "backend/Fin05.Api/Contracts/SaveReminderRequest.cs",
+      "bytes": 824,
+      "sha256": "a0078d5bacd888e8060e8724ade219f222aba73f29d96b8b51dccae345317af4"
+    },
+    {
+      "path": "backend/Fin05.Api/Contracts/UpdateCustomerRequest.cs",
+      "bytes": 439,
+      "sha256": "14e9a11b0bc04ad9010fb1b5bc2195a5b2ea2f3bf1b9402d202d45ec0decaa8f"
+    },
+    {
+      "path": "backend/Fin05.Api/Controllers/AdjustmentsController.cs",
+      "bytes": 19363,
+      "sha256": "4ecbfea26fc5164e421a8a7176afa368a18b338a6bf7cca3fd3b1cf31bb60dfb"
+    },
+    {
+      "path": "backend/Fin05.Api/Controllers/CustomersController.cs",
+      "bytes": 7249,
+      "sha256": "aae0136ba7dbbde3f64129d6c6022d9d940ee4778031e6e4fe11c05ae09e84c5"
+    },
+    {
+      "path": "backend/Fin05.Api/Controllers/InvoicesController.cs",
+      "bytes": 14639,
+      "sha256": "c75be7d980d3cb92e715737a814905c9d79c3034fc9496be738e62671f1489ce"
+    },
+    {
+      "path": "backend/Fin05.Api/Controllers/PaymentsController.cs",
+      "bytes": 15613,
+      "sha256": "6d62f4943fdd18dceb0942ea77684c9cc6df9b8ef154fcc38a6434807176e951"
+    },
+    {
+      "path": "backend/Fin05.Api/Controllers/ReceivablesController.cs",
+      "bytes": 4030,
+      "sha256": "6df34e632da54b159dc238a532ddcdf51d0e67c24ccc62f8f800a280183650f8"
+    },
+    {
+      "path": "backend/Fin05.Api/Controllers/RemindersController.cs",
+      "bytes": 13697,
+      "sha256": "fe96242005b508baf5671d926ddc1da7e6524688e1e8667bfc9c91167eed071b"
+    },
+    {
+      "path": "backend/Fin05.Api/Controllers/ReportsController.cs",
+      "bytes": 13174,
+      "sha256": "e367ce3b495bc39f4cae62efcc8d192b3704761f5219fdecb958768d93e81c76"
+    },
+    {
+      "path": "backend/Fin05.Api/Controllers/UsersController.cs",
+      "bytes": 18518,
+      "sha256": "c6e4cb570e4c1412f31e528aed2e442208e9fbd0fa2f5c87869d603abaa34df8"
+    },
+    {
+      "path": "backend/Fin05.Api/Data/AdjustmentModel.cs",
+      "bytes": 5127,
+      "sha256": "ade6557111c2301527e277ff6b0d1a39ef7c9b39d986bf5b85f9f6346da3b4fb"
+    },
+    {
+      "path": "backend/Fin05.Api/Data/Fin05DbContext.cs",
+      "bytes": 12269,
+      "sha256": "0f502ba6b6c746057b3ec3f5dc05ccc5f0e1f9f45a4516609bd627a772f0b974"
+    },
+    {
+      "path": "backend/Fin05.Api/Fin05.Api.csproj",
+      "bytes": 706,
+      "sha256": "6e64492a277f01717aa1da2254e20dd73cc71df21b027d65075c4a7357ca6ecb"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113080809_InitialCustomers.cs",
+      "bytes": 2040,
+      "sha256": "8bd6670d99e542e3fa5b050b857de8c64b91a606535d777f1967fe26d730297d"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113080809_InitialCustomers.Designer.cs",
+      "bytes": 2736,
+      "sha256": "1877d54bb219c7a5ede9cdd148b653b36fe7f487e3190dfeae636e5f740e88c4"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113083558_CustomerConcurrency.cs",
+      "bytes": 846,
+      "sha256": "97f159d563ce519edb6ae46257de9500012325fc526829ac765839564443432e"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113083558_CustomerConcurrency.Designer.cs",
+      "bytes": 2995,
+      "sha256": "b2709271d55f577eef829750446b5780ea5e464bd6a67a6c796530b74e7547be"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113090811_AppUsersAndAuditLogs.cs",
+      "bytes": 3574,
+      "sha256": "a7ec4f65a74a85741128b4c6a43b920be9e7d591fee0b21bf35902ec762e13d5"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113090811_AppUsersAndAuditLogs.Designer.cs",
+      "bytes": 6148,
+      "sha256": "0c7e4edd5f381bf788a23e783fdf996eee15093953a351263d5800dd058ae4c5"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113093119_InvoiceDrafts.cs",
+      "bytes": 5149,
+      "sha256": "8d9f7fd87d977899831f5ec686971cfd1182d98de771f97b111e2d979f78a5f2"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113093119_InvoiceDrafts.Designer.cs",
+      "bytes": 11069,
+      "sha256": "52f24f91b465f8d1eefeaf5bc0118092229b3eb1fb5350ec3da313f56cc75e60"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113100720_InvoiceIssueRules.cs",
+      "bytes": 956,
+      "sha256": "1e07b1d080015f6955f6d085b76b22087537e305ca1d9761570f1fc50a1a0092"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113100720_InvoiceIssueRules.Designer.cs",
+      "bytes": 11363,
+      "sha256": "8f63e0323bc81c08b4cac86df41ba162646c6f40f8498e6f1a2b60e6960f8e28"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113132644_PaymentsAndAllocations.cs",
+      "bytes": 6430,
+      "sha256": "9569f86468eecaefe0cd65413ab10dcf0fcd7a8207959d4e8d91706b0a380a38"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113132644_PaymentsAndAllocations.Designer.cs",
+      "bytes": 17476,
+      "sha256": "82c1f39b3d21e7a9ac7b9a404fa28d0729dfd1ca597b99ebec7f322d6dc66842"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113134952_DebtReminders.cs",
+      "bytes": 4535,
+      "sha256": "6aeee78d9025dee5cd8a2055d0f603fc26594021c0bc59e4c1ebf2780466d45f"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113134952_DebtReminders.Designer.cs",
+      "bytes": 21910,
+      "sha256": "8464ccf335e8f8e2d43196220fbd7acea37b38eab8bd43c635762cd78a440fe2"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113142317_DebtAdjustmentsAndJournals.cs",
+      "bytes": 12457,
+      "sha256": "5662c14eee1b529a6d80e02a2c4e5dcd06a4ee3bd4c2432cdc451e78f8c8cb21"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113142317_DebtAdjustmentsAndJournals.Designer.cs",
+      "bytes": 34840,
+      "sha256": "8ee95e01395ee2011eead47a140a5ab0505c2a109e4e7e4de88954dd77080c15"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113150110_UserAdministration.cs",
+      "bytes": 5836,
+      "sha256": "0beeff5d1a955e5e4b422b52562c1f7c383ca5ad1efa30888fdf75fe1fd6f3f0"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/20261113150110_UserAdministration.Designer.cs",
+      "bytes": 39208,
+      "sha256": "abe6e5d2f36809dac4cd8b52a20a67cc6e3f27f31a41ecc6dde28ce47e2bf4b3"
+    },
+    {
+      "path": "backend/Fin05.Api/Migrations/Fin05DbContextModelSnapshot.cs",
+      "bytes": 39096,
+      "sha256": "ad1c3b6851f0c76227e61c51787ea870ab2d23a14d56d2f42b224ed2790eb2d1"
+    },
+    {
+      "path": "backend/Fin05.Api/Models/AppUser.cs",
+      "bytes": 1341,
+      "sha256": "a8365820a24a263c2b32e79e9a78b45d0c1cd9a7d7c7f2ef0a6e4a3c321e4407"
+    },
+    {
+      "path": "backend/Fin05.Api/Models/AuditLog.cs",
+      "bytes": 425,
+      "sha256": "e9c3320bed3fd663100e5067c67ae1e4b67187f110aaa98904a80a718fe7ef69"
+    },
+    {
+      "path": "backend/Fin05.Api/Models/Customer.cs",
+      "bytes": 524,
+      "sha256": "2030b81f12523be4ec52652c83d8bb4da7d6f587ad0ebc1c1249a4eea778e7e5"
+    },
+    {
+      "path": "backend/Fin05.Api/Models/DebtAdjustment.cs",
+      "bytes": 2435,
+      "sha256": "b179d3c596eb2ca11a1593417810e1d7605aaa23b088cde8fe5bfb58ebc7e211"
+    },
+    {
+      "path": "backend/Fin05.Api/Models/DebtReminder.cs",
+      "bytes": 878,
+      "sha256": "a2bfd02055703cff760c80462a3bdb2d489ae573b81acddb96c51e477fa897a8"
+    },
+    {
+      "path": "backend/Fin05.Api/Models/Invoice.cs",
+      "bytes": 1029,
+      "sha256": "718d5450b6201abb776d966e393a945e125e4198fbcbddc0209a14f2faf1a357"
+    },
+    {
+      "path": "backend/Fin05.Api/Models/Payment.cs",
+      "bytes": 1220,
+      "sha256": "c0aeae8731b28351c4a9ba8728f823dee530dbe5326587015b2f3f2d2131cce8"
+    },
+    {
+      "path": "backend/Fin05.Api/Program.cs",
+      "bytes": 4518,
+      "sha256": "1de060c3d43387d787aa2b2e0193074aa896d186ed48128c9ec8a6187b2fb372"
+    },
+    {
+      "path": "backend/Fin05.Api/Properties/launchSettings.json",
+      "bytes": 644,
+      "sha256": "4f296fd82e005fb775e561661022a87bae34c27311d6c08f33e4f9200b6ebac6"
+    },
+    {
+      "path": "backend/Fin05.Api/Services/AppUserMiddleware.cs",
+      "bytes": 4634,
+      "sha256": "09abb6170b6f126ecf47b488d3b918c7f6e799d999f85b0fc3f854008cd80425"
+    },
+    {
+      "path": "backend/Fin05.Api/Services/BusinessClock.cs",
+      "bytes": 424,
+      "sha256": "16483998e686fa90851b469b5b03571e1116650c0b0c8ed5ed55259acb4c75cf"
+    },
+    {
+      "path": "backend/Fin05.Api/Services/CurrentAppUser.cs",
+      "bytes": 259,
+      "sha256": "caea43397e552ef7efe0b8a3cf2a9730e856e4c8ed686153ffff9a06a36ab4ee"
+    },
+    {
+      "path": "backend/Fin05.Api/Services/CustomerAuditService.cs",
+      "bytes": 1598,
+      "sha256": "54b6855a5279dcdcf9c8806eb2a60b383b2b6e163dc608bc02437bbcd1a146dc"
+    },
+    {
+      "path": "backend/Fin05.Api/Services/KeycloakUserAdmin.cs",
+      "bytes": 7838,
+      "sha256": "c00cdf55dc1e351803251bf3ac02775d5068064d762dbbe940c16d50a239abca"
+    },
+    {
+      "path": "backend/Fin05.Api/Services/ReceivableBalances.cs",
+      "bytes": 2713,
+      "sha256": "b879a1a181f79048ee3dc91b20fbd4093a67ae14e9433445d8ce5550a7daa5ad"
+    },
+    {
+      "path": "backend/Fin05.Api/Services/UserAdminWriteFilter.cs",
+      "bytes": 647,
+      "sha256": "68f37618f66e47f02c9d22b813015e75883f268f375c3778c78cd0aac5ba2ca6"
+    },
+    {
+      "path": "Check-FIN05.ps1",
+      "bytes": 5462,
+      "sha256": "5521e89f200b106e45e7740a99d6b4ce2a3063e10cdebdd8f6ae190c9dd295d2"
+    },
+    {
+      "path": "Configure-UserAdministration.ps1",
+      "bytes": 2777,
+      "sha256": "395c528878150b903fdb0e7b332bf30e488bacf0d417dd66147d687bd8aa6aed"
+    },
+    {
+      "path": "deploy/ADJUSTMENTS.md",
+      "bytes": 7149,
+      "sha256": "cbcd3460843fb3974b42674f4b0389190d7139eed000a0134ea5a4ceabf7dee9"
+    },
+    {
+      "path": "deploy/fin05-realm.json",
+      "bytes": 1741,
+      "sha256": "64e68d8b7e4e4ea6962434b876d38d87f9bf72f9c7bd28edf54a6d070eb67950"
+    },
+    {
+      "path": "deploy/FIN05-schema.sql",
+      "bytes": 27356,
+      "sha256": "e55f4b1b0c9e02d1c78d0199f37d0fde2cd1f7674c90159f7d4a584ea7834de6"
+    },
+    {
+      "path": "deploy/HANDOFF.md",
+      "bytes": 9149,
+      "sha256": "c7ed24b0093cea9586590a27bb40e18807d9619c7cb57d578fd566564a8f1f4b"
+    },
+    {
+      "path": "deploy/INTERFACE.md",
+      "bytes": 5848,
+      "sha256": "ce7169fbc923ec28d9ff4c267b6232f2e6e6e655ba64396adfedd3945f6e1f59"
+    },
+    {
+      "path": "deploy/INVOICES.md",
+      "bytes": 5915,
+      "sha256": "8e581673af92d27e971de4ab3c9c219aa42d1518d9543a5c6d177b62a6b200ee"
+    },
+    {
+      "path": "deploy/KEYCLOAK.md",
+      "bytes": 6199,
+      "sha256": "3f7c9cbbf2a57da160a21c74686c4e7b92c337bb455756c02fcf44e694a3201e"
+    },
+    {
+      "path": "deploy/PAYMENTS.md",
+      "bytes": 5431,
+      "sha256": "1deda4123d4d1de1836b85cdce8eaf1361ac1128780e8218e6ff481e908e58ae"
+    },
+    {
+      "path": "deploy/RECEIVABLES.md",
+      "bytes": 5844,
+      "sha256": "6f203a898916f732b18dd72f2c323e5e5c3e46fb170a93c9d5d0d199536992d4"
+    },
+    {
+      "path": "deploy/REMINDERS.md",
+      "bytes": 5827,
+      "sha256": "7cc260247bab92a92d8dae30c9a74e612e439616bc402f9903998061ab3f7929"
+    },
+    {
+      "path": "deploy/REPORTS.md",
+      "bytes": 7738,
+      "sha256": "2452655a25ef84d09aca8f4127789cc357f4a5093acd8950413796a48b1e0b11"
+    },
+    {
+      "path": "deploy/runtime-versions.json",
+      "bytes": 433,
+      "sha256": "dd022dab7b23475237fa1c28b9df5437aca078454d085a9f0060ab7d525f9632"
+    },
+    {
+      "path": "deploy/USERS.md",
+      "bytes": 11018,
+      "sha256": "8fe7a06a1c58589f0b7ead8ce867d226305af0802565e91e3c9fdcb47e9dda63"
+    },
+    {
+      "path": "dotnet-tools.json",
+      "bytes": 195,
+      "sha256": "9bde58e6dcbcdc1c6e69b8718e2f443c1fc94bd05e8dc78cd4f987ba0d69f6e4"
+    },
+    {
+      "path": "Export-FIN05.ps1",
+      "bytes": 7383,
+      "sha256": "c2111efed8917bf2615d90ace38af096e1a45bcb8f1052ad00156d5dd0508427"
+    },
+    {
+      "path": "Fix-KeycloakAccountAccess.ps1",
+      "bytes": 1615,
+      "sha256": "ef36cfb18e9a302a4edd403a4d75a2f9b892ae8d43ffd943c46c1974da40feca"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "bytes": 253,
+      "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "bytes": 591,
+      "sha256": "cf80a7510234dcd5ae594b30b44682b8b45ba13c0fcb5bf8928bea143802aa1c"
+    },
+    {
+      "path": "frontend/index.html",
+      "bytes": 444,
+      "sha256": "919b44e5c2de9d4a1d9d4514dd12ca14fb11135cde7c95cb27560aaa5dedea55"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "bytes": 102026,
+      "sha256": "e66d4249252833bba2f75db3e730ec59de70752796b378a9d17e816370bc013a"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 839,
+      "sha256": "c0cecd2ef63bc672bf22720eefced6601c09ade43cbf7533b04d6ef49ec7db1f"
+    },
+    {
+      "path": "frontend/playwright.config.ts",
+      "bytes": 283,
+      "sha256": "7d874e70826dfe396b39c4f329978ad3e51fcd579386c32bd221739eaefb1553"
+    },
+    {
+      "path": "frontend/public/favicon.svg",
+      "bytes": 9522,
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+    },
+    {
+      "path": "frontend/public/fin05.svg",
+      "bytes": 291,
+      "sha256": "d5e23bea2f3e1efc996e1f4553111e598f16494f4f804bc1c2340add014755f8"
+    },
+    {
+      "path": "frontend/public/icons.svg",
+      "bytes": 5031,
+      "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a"
+    },
+    {
+      "path": "frontend/src/AdjustmentDetails.tsx",
+      "bytes": 8159,
+      "sha256": "5f1bcaf8a1a6c1c143b3f5784b94ae66fc24d99591dc6e0982964fd596ddb2fd"
+    },
+    {
+      "path": "frontend/src/AdjustmentEditor.tsx",
+      "bytes": 9423,
+      "sha256": "3d56e795d40dac8449c21112b5cbfe6b4d150bc76ac47de0d95150a8fda22943"
+    },
+    {
+      "path": "frontend/src/adjustments.ts",
+      "bytes": 1626,
+      "sha256": "adf52955bd113f940b03b01a051a3f352ca6513bd73de2622a193910c597a1d5"
+    },
+    {
+      "path": "frontend/src/AdjustmentsPage.tsx",
+      "bytes": 8975,
+      "sha256": "fc03a3c5fa4cd7219c094ab8fb48c9af9b7a84e5326fede933e073fcf70da50f"
+    },
+    {
+      "path": "frontend/src/api.ts",
+      "bytes": 1842,
+      "sha256": "13c94d4efd686c79be06c0d58df5b830df7414eb22492b26bc5253d6b52cff8a"
+    },
+    {
+      "path": "frontend/src/App.css",
+      "bytes": 71319,
+      "sha256": "854dbc490d1acca229a620c0e345240cfab8f8b6927698afe8c9f8dac841122f"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "bytes": 18409,
+      "sha256": "8eb18a04a872fd42ccfb8090c5911855b28e65d6844179335f206fbfc332e5bd"
+    },
+    {
+      "path": "frontend/src/assets/hero.png",
+      "bytes": 13057,
+      "sha256": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c"
+    },
+    {
+      "path": "frontend/src/assets/react.svg",
+      "bytes": 4126,
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+    },
+    {
+      "path": "frontend/src/assets/vite.svg",
+      "bytes": 8709,
+      "sha256": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f"
+    },
+    {
+      "path": "frontend/src/auth.ts",
+      "bytes": 2048,
+      "sha256": "22c16cdbb93fbee589735e1439bb7b1a48da3bef3efc8ea5bb884ed23b6691ca"
+    },
+    {
+      "path": "frontend/src/BalanceBridge.tsx",
+      "bytes": 2539,
+      "sha256": "55cece28db9db6a3a442d44804d33dc52b61bf00209a474b547724cade11de03"
+    },
+    {
+      "path": "frontend/src/CustomerHistory.tsx",
+      "bytes": 5063,
+      "sha256": "e996007340d390751dc10cc1521a2dc15596ef1c813e975e8fe1be7df576e4c6"
+    },
+    {
+      "path": "frontend/src/Icons.tsx",
+      "bytes": 1553,
+      "sha256": "04c21b7e3c59493a94b07de2a1753f3bac6bcac46199c18299027cae2250fb1f"
+    },
+    {
+      "path": "frontend/src/index.css",
+      "bytes": 1424,
+      "sha256": "4619360ed6c8dc4065ac69d33032a7127a2cb77e1b8f16e2c09de605cb2bdccc"
+    },
+    {
+      "path": "frontend/src/InvoiceDetails.tsx",
+      "bytes": 6476,
+      "sha256": "75d03017af81171c9f77e2662dc71d6cb3b1f9327135572fc2d69d6e5146426c"
+    },
+    {
+      "path": "frontend/src/InvoiceEditor.tsx",
+      "bytes": 8476,
+      "sha256": "feb01f3a1b1bf873bada7f100ae9278ea62ebd77b1a3b052e4a16e940323e94c"
+    },
+    {
+      "path": "frontend/src/invoices.ts",
+      "bytes": 1413,
+      "sha256": "2896005be40051a49ce558229b495f8b820da3c348db106fa7fd339f3327d02c"
+    },
+    {
+      "path": "frontend/src/InvoicesPage.tsx",
+      "bytes": 7483,
+      "sha256": "29fee7ac80eb070a4f4503be9e34a74aa380cdf5246315599bb6119c9f3804a0"
+    },
+    {
+      "path": "frontend/src/Login.tsx",
+      "bytes": 2693,
+      "sha256": "9f0c558cb69201c498a6e61cd4948ff410a9f76f5a517727d2745456b9d32a16"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "bytes": 1333,
+      "sha256": "3c8d0c57c576a3cac737b2a86663c7f696d78c9a65e3e497506c0d4282bb903c"
+    },
+    {
+      "path": "frontend/src/OverviewPage.tsx",
+      "bytes": 11169,
+      "sha256": "5d569499de3182357ced392e2b89d2bd8df8b2500805207912e78ab225be1a54"
+    },
+    {
+      "path": "frontend/src/PaymentDetails.tsx",
+      "bytes": 10924,
+      "sha256": "c8e86154d065c9a11b6014b0561974aedc95b776328319698292a47bc3a80fd2"
+    },
+    {
+      "path": "frontend/src/PaymentEditor.tsx",
+      "bytes": 5508,
+      "sha256": "81dd7592af4860eba6da7562566a29159927c072d11b56491b15106d8788542d"
+    },
+    {
+      "path": "frontend/src/payments.ts",
+      "bytes": 762,
+      "sha256": "836604185e709a98c6e0c444dcc366dfb6ca42372d411966edc3a60077004817"
+    },
+    {
+      "path": "frontend/src/PaymentsPage.tsx",
+      "bytes": 6964,
+      "sha256": "d25a1c55b9c3f88510770f8d754ade489c43694e24077c9be6a788c18815f210"
+    },
+    {
+      "path": "frontend/src/ReceivablesPage.tsx",
+      "bytes": 7944,
+      "sha256": "7645b99ffb3805519a258a20cf7b4db09b0346fd193fda38e0d03cc1dadef3a7"
+    },
+    {
+      "path": "frontend/src/ReminderDetails.tsx",
+      "bytes": 6808,
+      "sha256": "769cc0b058e0bda199a85a52823fd26d1a734a962141baa74c70c20d0389e526"
+    },
+    {
+      "path": "frontend/src/ReminderEditor.tsx",
+      "bytes": 5703,
+      "sha256": "f42a4674892542cd9e193ac2163451e9e06890c54852f416f048305615a192e8"
+    },
+    {
+      "path": "frontend/src/reminders.ts",
+      "bytes": 1566,
+      "sha256": "346cefa750ed3f813bbc55f98e4c1fcedc18daac177e82e80911a3e226cbbbcc"
+    },
+    {
+      "path": "frontend/src/RemindersPage.tsx",
+      "bytes": 10782,
+      "sha256": "72f7c223995cbe9af71fe1138a90a6bb33f2df9abde450e61ea5606e0a1f298b"
+    },
+    {
+      "path": "frontend/src/reports.ts",
+      "bytes": 1563,
+      "sha256": "74735d93fb28c8984ced2a082d7c39f1a6dea0a81b387ee28319853cfb9e2c11"
+    },
+    {
+      "path": "frontend/src/ReportsPage.tsx",
+      "bytes": 14067,
+      "sha256": "dcb6e76e437ad57862ab4aa9ba131f2fa197b7932b52273409fb03f96150c753"
+    },
+    {
+      "path": "frontend/src/UserDetails.tsx",
+      "bytes": 4076,
+      "sha256": "449d5395c4a3281e4e892d33d4c21a3f28ed643204e60c0312708f7c865fce5e"
+    },
+    {
+      "path": "frontend/src/UserEditor.tsx",
+      "bytes": 6291,
+      "sha256": "ed47aad3c6cb8e2f24cf429bcad52a0865a5967d64eda27fa9ddbbe0c61fa8e0"
+    },
+    {
+      "path": "frontend/src/users.ts",
+      "bytes": 1680,
+      "sha256": "0e50561411cbf11d2c81b79d17b0b0dc4913562fb0516914fc59b0352f3c41d4"
+    },
+    {
+      "path": "frontend/src/UsersPage.tsx",
+      "bytes": 13760,
+      "sha256": "db6e48087a995efc51ed7634900b6a60680f43da2bd889bbc7da1bbcd11d9397"
+    },
+    {
+      "path": "frontend/src/Workspace.tsx",
+      "bytes": 10519,
+      "sha256": "34de0a1641fbc7e7db470a00b7ce4c1fab6bc00fb771b913ff047912a0559dae"
+    },
+    {
+      "path": "frontend/tests/adjustments.spec.ts",
+      "bytes": 21192,
+      "sha256": "2a1725c91b376e161138c67a80d5e15ffdbd1a31a08057a344753a85b8cecbf0"
+    },
+    {
+      "path": "frontend/tests/audit.spec.ts",
+      "bytes": 10442,
+      "sha256": "3adf88e8ad9b97cc130b2c5ad4afbfcda3ef3f12d53cf212d37744559b63d02a"
+    },
+    {
+      "path": "frontend/tests/auth.spec.ts",
+      "bytes": 6904,
+      "sha256": "00a87cec70191245035d2206af5a31f0079e75580d1c02a8b58100f484077ecb"
+    },
+    {
+      "path": "frontend/tests/customers.spec.ts",
+      "bytes": 13262,
+      "sha256": "2d8aad457731e141404b32cbbfb248779da6fe808ba41b26e124019a772e07f8"
+    },
+    {
+      "path": "frontend/tests/fixtures.ts",
+      "bytes": 2325,
+      "sha256": "c1cb65cecb65085a40899ed0ea29e27e8bf163bb533f7cd846a04849ef3bb037"
+    },
+    {
+      "path": "frontend/tests/invoices.spec.ts",
+      "bytes": 15447,
+      "sha256": "e5768a761dfe3d0bc857151096bd7683b656b0d3e590cdafd650964a2a6505a7"
+    },
+    {
+      "path": "frontend/tests/issuance.spec.ts",
+      "bytes": 14682,
+      "sha256": "62abc82153227809064cef4f1657ef124b56714c1c5088538f079e3787796c74"
+    },
+    {
+      "path": "frontend/tests/overview.spec.ts",
+      "bytes": 3459,
+      "sha256": "5f529e365725b34b24cdb0ff67781594918c439f00833207623e7d0fff0fa6ff"
+    },
+    {
+      "path": "frontend/tests/payments.spec.ts",
+      "bytes": 17768,
+      "sha256": "40e2c88647bf2c495c93279f87434135a53d085727dccf76e6145fbd5a4dd797"
+    },
+    {
+      "path": "frontend/tests/reminders.spec.ts",
+      "bytes": 18564,
+      "sha256": "a813939cac4b725865a758e91cdf180071575c58e6fedf0001d0664bbb9199a5"
+    },
+    {
+      "path": "frontend/tests/reports.spec.ts",
+      "bytes": 16389,
+      "sha256": "3184bbd850a8735bf949912184cd4338ed261736fdd0aacebce239c0703aa3b1"
+    },
+    {
+      "path": "frontend/tests/setup.ts",
+      "bytes": 2966,
+      "sha256": "a72bfcd2b436b4bd93897e1f692ae4be1bedbad6d64b265ad38fb178d9c2c95a"
+    },
+    {
+      "path": "frontend/tests/users.spec.ts",
+      "bytes": 19677,
+      "sha256": "55d3d88fd8ec37028e920474842d56b5c87f35507245057875ef3b7dc6f065cc"
+    },
+    {
+      "path": "frontend/tests/workbench.spec.ts",
+      "bytes": 2406,
+      "sha256": "6f107d0561a4d01257d4184f6901eb24dc4223f04eca6bdc3f8af3d9eb22e727"
+    },
+    {
+      "path": "frontend/tsconfig.app.json",
+      "bytes": 655,
+      "sha256": "8e5d12ba330e7d86409edec74b95451e0db22ee09b9426c94b5bf817571eddb0"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "bytes": 119,
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+    },
+    {
+      "path": "frontend/tsconfig.node.json",
+      "bytes": 558,
+      "sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "bytes": 330,
+      "sha256": "f06de577d2488b245f968823d891eab1517f9a16ea46570dbedad4a8d6d72edd"
+    },
+    {
+      "path": "Install-Keycloak.ps1",
+      "bytes": 987,
+      "sha256": "06c4ed133be7c4bd164762bf11b187afd623bd3d2a87d13fcbe2b92bfeb554c8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12787,
+      "sha256": "ece3f0de73bbec5114027480f68ffcc896004240b54609ce60d0a42a1ed6c0fd"
+    },
+    {
+      "path": "scripts/Require-PowerShell7.ps1",
+      "bytes": 878,
+      "sha256": "78c84bd35408f9eead89c7eda487e7d0f7b28cc3b622f690ca1d6943dc826dbe"
+    },
+    {
+      "path": "Setup-FIN05.ps1",
+      "bytes": 3141,
+      "sha256": "8ebe1818f739f032c6a487104a2f8fc99ee609915fd6df361a294cc3f30b90c0"
+    },
+    {
+      "path": "Start-FIN05.ps1",
+      "bytes": 3334,
+      "sha256": "06ca343d5b8f307883c4f2cdfc3782f33d79322b1e6d554ccb695543d3347f56"
+    },
+    {
+      "path": "Start-Keycloak.ps1",
+      "bytes": 3048,
+      "sha256": "bd39945e20be8b20bd9e8aa99f06eb281df50ac2bfdbadd52cb741b355f7a304"
+    },
+    {
+      "path": "tests/Test-Customers.ps1",
+      "bytes": 5227,
+      "sha256": "ce7930bc972433f94fadd20126062feb5ceb150f41d2d73b95d9ff5e71f9bd1c"
+    }
+  ]
+}

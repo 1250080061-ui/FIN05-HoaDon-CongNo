@@ -1,0 +1,33 @@
+import { test, expect, login, accounts } from './fixtures'
+
+test('Chuyển nhanh theo quyền, tìm không dấu và ghi nhớ cách xem qua trang khác', async ({ browser }) => {
+  const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, storageState: { cookies: [], origins: [] } })
+  try {
+    const { page } = await login(context, accounts.find(account => account.role === 'sales')!)
+    await page.keyboard.press('Control+k')
+    const palette = page.getByRole('dialog', { name: 'Bạn muốn mở sổ nào?' })
+    await expect(palette).toBeVisible()
+    await expect(palette.getByRole('link', { name: 'Người dùng' })).toHaveCount(0)
+    await expect(palette.getByRole('link', { name: 'Báo cáo' })).toHaveCount(0)
+    await page.getByLabel('Tìm chức năng', { exact: true }).fill('khach hang')
+    await expect(palette.getByRole('link')).toHaveCount(1)
+    await page.keyboard.press('Escape')
+    await expect(palette).not.toBeVisible()
+    await page.getByRole('button', { name: 'Bảng rộng', exact: true }).click()
+    await expect(page.locator('.workspace')).toHaveClass(/view-compact/)
+    await page.getByRole('button', { name: 'Ẩn ghi chú', exact: true }).click()
+    await expect(page.getByRole('button', { name: 'Giao diện hiện đại', exact: true })).toHaveCount(0)
+    await expect(page.locator('.workspace')).toHaveClass(/theme-modern/)
+    await expect(page.getByRole('complementary', { name: 'Ghi chú đối chiếu' })).toBeHidden()
+    await page.getByRole('link', { name: 'Bàn làm việc', exact: true }).click()
+    await expect(page.locator('.workspace')).toHaveClass(/view-compact/)
+    await expect(page.locator('.workspace')).toHaveClass(/theme-modern/)
+    await expect(page.getByRole('button', { name: 'Hiện ghi chú', exact: true })).toBeVisible()
+    await page.getByRole('button', { name: 'Hiện ghi chú', exact: true }).click()
+    await expect(page.getByRole('complementary', { name: 'Ghi chú đối chiếu' })).toBeVisible()
+    await page.getByRole('button', { name: 'Chuyển nhanh đến chức năng' }).click()
+    await page.getByLabel('Tìm chức năng', { exact: true }).fill('khach hang')
+    await palette.getByRole('link').click()
+    await expect(page.getByRole('heading', { name: 'Khách hàng', exact: true })).toBeVisible()
+  } finally { await context.close() }
+})

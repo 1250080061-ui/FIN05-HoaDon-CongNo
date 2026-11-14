@@ -1,0 +1,7 @@
+{
+  "javaSha256": "636bdc13dc649ddc7d5921c5c7d23cca6e44fd19d662b45cc9c02135a6c96c42",
+  "keycloakUrl": "https://github.com/keycloak/keycloak/releases/download/26.8.2/keycloak-26.8.2.zip",
+  "keycloakVersion": "26.8.2",
+  "keycloakSha1": "987faddc433a9bf72f219e3654bd02b7685621bc",
+  "javaUrl": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip"
+}
